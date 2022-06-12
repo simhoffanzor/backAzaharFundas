@@ -18,7 +18,7 @@ public class AzaharfundasApplication {
             return new WebMvcConfigurer(){
                 @Override
                 public void addCorsMappings(CorsRegistry registry){
-                    registry.addMapping("/**").allowedOrigins("https://azahar-fundas.firebaseapp.com").allowedHeaders("*").allowedMethods("*");
+                    registry.addMapping("/**").allowedOrigins("https://azahar-fundas.firebaseapp.com/").allowedHeaders("*").allowedMethods("*");
                     
                 }
             };
