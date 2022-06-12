@@ -18,7 +18,7 @@ public class AzaharfundasApplication {
             return new WebMvcConfigurer(){
                 @Override
                 public void addCorsMappings(CorsRegistry registry){
-                    registry.addMapping("/**").allowedOrigins("https:localhost:4200/").allowedHeaders("*").allowedMethods("*");
+                    registry.addMapping("/**").allowedOrigins("http://localhost:4200/").allowedHeaders("*").allowedMethods("*");
                     
                 }
             };
